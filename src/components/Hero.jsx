@@ -12,7 +12,7 @@ const Hero = () => {
             <p className="font-serif text-lg mt-4 italic text-center">I’m a web developer who turns real-world problems into scalable, secure, and smart web solutions — all without fluff. From robust Django systems to API-powered trading bots and AI-powered platforms, I craft the logic that powers the user experience.</p>
           </div>
           <div className="mt-4">
-            <img className='rounded-lg' src={dev} alt="Developer.jp" srcset="" />
+            <img className='rounded-lg' src={dev} alt="Developer.jp"  />
           </div>
         </div>
   )
