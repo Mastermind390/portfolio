@@ -14,7 +14,7 @@ const Skills = () => {
 
         <SkillCard title="Frontend Integration" description="Functional, fast, and clean. I always built with a backend-first mindset." />
 
-        <Punchy description={"I don’t just code. I build tools that help businesses save time, earn more, and grow faster`"} />
+        <Punchy description={"I don’t just code. I build tools that help businesses save time, earn more, and grow faster."} />
         
       </div>
     </div>

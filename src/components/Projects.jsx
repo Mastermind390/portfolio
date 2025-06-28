@@ -1,27 +1,24 @@
-import cashpopImage from '../assets/images/cahpop.jpg'
+import cashpopImage from '../assets/images/cashhh.png';
+import  robotImage from '../assets/images/robot.png';
+import  ProjectCard from './ProjectCard'
+import Punchy from './Punchy';
 
 const Projects = () => {
   return (
     <div className='mt-10'>
       <h1 className='text-center font-[caprasimo] text-xl bg-primary p-3 mb-4 text-white'>🚀 Real Projects. Real Value</h1>
 
-      <div className='p-6'>
-        <div className='w-80 bg-sky-100 h-100 rounded-3xl mb-5'>
-          <img className='rounded-t-3xl w-full' src={cashpopImage} alt="" srcset="" />
-           <div className='p-4'>
-            <p className='font-bold'>Cashpop a task marketplace where user can complete simple task to earn money or airtime. Users can also create and manage task on this platform.</p>
-          </div>
-          <div className='p-4 flex justify-between'>
-            <a className='bg-primary p-2 rounded-lg text-white w-25 text-center' href="">Live Demo</a>
-            <a className='bg-black p-2 rounded-lg text-white w-25 text-center' href="">Github</a>
-          </div>
-        </div>
-       
+      <div className='p-6 flex flex-wrap gap-12 justify-center'>
+        <ProjectCard imageSource={cashpopImage} description={"Cashpop a task marketplace where user can complete simple task to earn money or airtime. Users can also create and manage task on this platform. This platform also allow users to convert their earnings to airtime whenever they like."} demoLink={"https://cashpop.com.ng/"} githubLink={"https://github.com/Mastermind390/cashpop"}/>
+
+        <ProjectCard imageSource={robotImage} description={"A trading bot built with python, bybit api and telegram api. This robot generate trading signal based on data received from bybit, do some calculation based on preset parameters and send generated signal to a trading telegram channel."} demoLink={"https://t.me/cryptoSignalVaultt"} githubLink={"https://github.com/Mastermind390/rangeBreakBot/blob/main/rangeBreakBot.py"} />
       </div>
+
+      <Punchy description={`"I code like a strategist, not a hobbyist. Every line I write solves a problem."`} />
     </div>
   )
 }
 
 export default Projects
 
-//h ttps://cashpop.com.ng/
+//https://cashpop.com.ng/
