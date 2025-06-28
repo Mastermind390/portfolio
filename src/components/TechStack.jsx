@@ -13,7 +13,7 @@ const TechStack = () => {
   return (
     <div className="mt-10">
       <h1 className='text-center font-[caprasimo] text-xl bg-primary p-3 mb-4 text-white'>⚙️ Tech Stack</h1>
-      <div className="p-6 flex gap-3 flex-wrap justify-center">
+      <div className="p-6 flex gap-3 flex-wrap justify-center lg:px-40 lg:py-20">
         <TechCard logo={css} name={"CSS"} />
         <TechCard logo={javascript} name={"JAVASCRIPT"}  />
         <TechCard logo={react} name={"REACT"}/>
@@ -22,9 +22,11 @@ const TechStack = () => {
         <TechCard logo={django} name={"DJANGO"} />
         <TechCard logo={git} name={"GIT"} />
         <TechCard logo={github} name={"GITHUB"} />
+
+        <Punchy description={`"Looking for someone who thinks deeply, codes cleanly, and builds like a business partner and not just a developer?"`} />
       </div>
 
-      <Punchy description={`"Looking for someone who thinks deeply, codes cleanly, and builds like a business partner and not just a developer?"`} />
+      
     </div>
   )
 }
