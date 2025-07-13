@@ -15,7 +15,7 @@ const Contact = () => {
         <ContactCard image={github} name={"GitHub"} to={"https://github.com/Mastermind390"} />
         <ContactCard image={twitter} name={"Twitter"} to={"https://x.com/eni_dami?t=7KZRF0NqZtw1QV2FDNbrkA&s=09"} />
       </div>
-      <p className="bg-secondary p-3 w-full text-center">{`copyright @ ${date.getFullYear()}`}</p>
+      <p className="bg-blue-500 p-3 w-full text-center">{`copyright @ ${date.getFullYear()}`}</p>
     </div>
   )
 }
@@ -24,7 +24,7 @@ function ContactCard({image, name, to}) {
     return (
         <div className='flex items-center gap-3 px-4 rounded-lg'>
             <img src={image} alt="gmail" srcset="" />
-            <a className='text-xl' href={to} target="_blank">{name}</a>
+            <a className='text-xl text-white' href={to} target="_blank">{name}</a>
         </div>
     )
 }

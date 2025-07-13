@@ -3,9 +3,9 @@ import React from 'react'
 const SkillCard = ({title, description}) => {
   return (
     <>
-        <div className="w-80 bg-secondary rounded-lg p-6 shadow-lg">
+        <div className="w-80 bg-blue-500 rounded-lg p-6 shadow-lg">
             <h1 className='text-2xl text-center font-black uppercase'>{title}</h1>
-            <p className="text-center mt-4 bg-amber-100 p-3 rounded-lg">{description}</p>
+            <p className="text-center mt-4 bg-blue-300 p-3 rounded-lg">{description}</p>
         </div>
     </>
   )

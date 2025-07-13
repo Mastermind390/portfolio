@@ -8,3 +8,7 @@
     --color-brownish: #756C49;
     --color-darkish: #51525C;
 }
+
+body {
+    background-color: rgb(1, 1, 26);
+}

@@ -2,7 +2,7 @@
 
 const ProjectCard = ({imageSource, description, demoLink, githubLink}) => {
   return (
-    <div className='w-80 bg-sky-100 rounded-3xl mb-5'>
+    <div className='w-80 bg-blue-300 rounded-3xl mb-5'>
         <img className='rounded-t-3xl' src={imageSource} alt="" srcset="" />
         <div className='p-4'>
         <p className='font-bold'>{description}</p>
